@@ -1,6 +1,6 @@
 {
-  "name": "mongoose-uuid2",
-  "version": "2.3.0",
+  "name": "@x-guard/mongoose-uuid",
+  "version": "3.0.0",
   "description": "UUID schema type for mongoose",
   "main": "index.js",
   "scripts": {
@@ -10,13 +10,12 @@
   "author": "Ian Patton <ian.patton@gmail.com> (http://github.com/niahmiah)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/niahmiah/mongoose-uuid.git"
+    "url": "https://github.com/x-guard/mongoose-uuid.git"
   },
   "license": "ISC",
   "dependencies": {
-    "bson": "^3.0.2",
     "debug": "^3.1.0",
-    "uuid-parse": "^1.0.0"
+    "uuid-mongodb": "^2.1.3"
   },
   "peerDependencies": {
     "mongoose": "5.x"
@@ -33,6 +32,7 @@
     "coveralls": "^3.0.2",
     "istanbul": "^0.4.5",
     "mocha": "^5.2.0",
+    "mongoose": "^5.9.6",
     "request": "^2.88.0",
     "uuid": "^3.3.2"
   },
